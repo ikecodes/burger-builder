@@ -6,7 +6,7 @@ import BuildControls from "../../components/Burger/BuildControls/BuildControls";
 import Modal from "../../components/UI/Modal/Modal";
 import OrderSummary from "../../components/Burger/OrderSummary/OrderSummary";
 import withErrorHandler from "../../hoc/withErrorHandler/withErrorHandler";
-import Spinner from "./../../components/UI/Spinner/Spinner";
+import Spinner from "../../components/UI/Spinner/Spinner";
 import axios from "../../axios-order";
 
 const INGREDIENT_PRICES = {
